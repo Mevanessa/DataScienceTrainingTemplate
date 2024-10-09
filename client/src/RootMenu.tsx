@@ -28,31 +28,7 @@ function RootMenu() {
                 className='rounded-3xl bg-[#2f3646] text-5xl'>
                 Match
             </LinkButton>
-            <LinkButton
-                link='/super'
-                className='rounded-3xl bg-[#2f3646] text-5xl'>
-                Super
-            </LinkButton>
-            <LinkButton
-                link='/pit'
-                className='rounded-3xl bg-[#2f3646] text-5xl'>
-                Pit
-            </LinkButton>
-            <LinkButton
-                link='/recon'
-                className='rounded-3xl bg-[#2f3646] text-5xl'>
-                Recon
-            </LinkButton>
-            <LinkButton
-                link='/picklist'
-                className='rounded-3xl bg-[#2f3646] text-5xl'>
-                Picklist
-            </LinkButton>
-            <LinkButton
-                link='/score_calculator'
-                className='rounded-3xl bg-[#2f3646] text-5xl'>
-                Scoring Calculator
-            </LinkButton>
+
             <div className='absolute opacity-0'>
                 {images.map(e => (
                     <div className={e} />
